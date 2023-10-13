@@ -48,6 +48,7 @@ div{
     display: flex;
     /* flex-basis: 10rem; */
     flex-grow: 1;
+
     /* font-size: x-large; */
 }
 
@@ -643,6 +644,11 @@ margin-right: 0px;
 textarea{
     width: 60vw;
     height: 15vw;
+}
+.container p{
+    padding-left: 15%;
+    /* margin: 10px; */
+
 }
 
    
