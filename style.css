@@ -508,9 +508,10 @@ margin-right: 0px;
         float: left;
         
     }
+
     .container img{
-        width: 20vw;
-        height: 20vw;
+        width: 25vw;
+        height: 25vw;
     }
     .table-content{
         display: inline;
@@ -522,7 +523,9 @@ margin-right: 0px;
     }
     .sales-report{
         display: inline-block;
-        margin-top: 2em;
+        margin-top: 2vw;
+      padding: 1.5vw 3vw;
+      
     }
      .button-container {
   
@@ -547,17 +550,31 @@ margin-right: 0px;
     font-size: 2vw;    
 
 }
-
-
-
+.sales-report img{
+    max-width: 40vw;
+    height: 12vw;
+    margin-bottom: 2.5rem;
+    
 }
+}
+
+
 @media (max-width:599px){
+
+   
     body{
         margin: 3em 2em 2em 2em;
         text-align: center;
+        /* justify-content: center; */
+
     }
     .container img{
      float: none;  
+        
+    }
+    .container .profile-pic img{
+        width: 50vw;
+        height: 50vw;
 
     }
     
@@ -577,18 +594,22 @@ margin-right: 0px;
         height: 20vw;
     }
     .table-content{
-        margin-left: 20%;
+        margin-left: 16%;
 
         display: inline;
         /* margin-left: 10vw; */
-        /* width: 20rem; */
+     
         padding-right:5vw ;
         
     }
     .sales-report{
         display: inline-block;
         margin-top: 2em;
+        max-width: 60vw;
        
+    }
+    .sales-report img{
+        width: 40vw;
     }
     section{
         flex-wrap: wrap;
