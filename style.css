@@ -108,9 +108,6 @@ h2{
     display: flex;
      width: 20vw;
      margin-bottom: 0;
-     /* min-height: 0vw; */
-     
-   
 }
 .sales-report{
     display: flex;
@@ -276,9 +273,9 @@ display: flex;
 .button:last-child {
     border-right: none; /* Remove the right border from the last button */
 }
-.buttons{
+/* .buttons{
     margin-left: 5vw;
-}
+} */
 
 
 /* 
@@ -321,6 +318,7 @@ textarea{
     padding-bottom: 0;
     margin-bottom: 0;
     border: 0;
+    resize: none;
 }
 .comments strong, .feed-about h3{
     color: #5A96E3;
@@ -671,6 +669,7 @@ textarea{
     /* margin: 10px; */
 
 }
+
 
    
 }
